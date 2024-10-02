@@ -11,13 +11,13 @@ export default function Programs({ params }) {
         axios
             .get("http://localhost:8000/api/programs/")
             .then((res) => {
-                setPrograms(res.data.programs.filter(program => program.university.name.toLowerCase().startsWith(params.slug.split("_").join(' ').toLowerCase())))
+                setPrograms(res.data.programs.filter(program => program.university.name.toLowerCase().startsWith(params.slug.split("_").join(" ").toLowerCase())))
             })
     }, [params.slug]);
 
     return (
         <div className="container min-h-lvh">
-            <h2 className="my-30 text-4xl text-dark my-10 font-bold text-center">Search  for "{params.slug}"</h2>
+            <h2 className="my-30 text-4xl text-dark my-10 font-bold text-center">Search  for {params.slug}</h2>
             <Row className="justify-center" gutter={{
                 xs: 8,
                 sm: 16,
