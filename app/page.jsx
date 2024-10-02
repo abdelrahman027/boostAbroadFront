@@ -138,19 +138,19 @@ export default function Home() {
               },
               {
                 icon: "/feature_section/2.png",
-                title: "Apply with us",
+                title: "Apply with us s",
                 description:
                   "Apply instantly, upload your academic documents, and receive offers promptly.",
               },
               {
                 icon: "/feature_section/3.png",
-                title: "Get Consultation",
+                title: "Get Consultation n",
                 description:
                   "Our highly trained counsultants will get with you and help you with the whole process",
               },
               {
                 icon: "/feature_section/4.png",
-                title: "Predeparture",
+                title: "Predeparture.",
                 description:
                   "From Visa to accommodations, our platform well help you get stale effortlessly",
               },
