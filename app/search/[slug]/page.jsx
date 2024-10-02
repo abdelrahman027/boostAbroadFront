@@ -13,7 +13,7 @@ export default function Programs({ params }) {
             .then((res) => {
                 setPrograms(res.data.programs.filter(program => program.university.name.toLowerCase().startsWith(params.slug.split("_").join(' ').toLowerCase())))
             })
-    }, []);
+    }, [params.slug]);
 
     return (
         <div className="container min-h-lvh">
