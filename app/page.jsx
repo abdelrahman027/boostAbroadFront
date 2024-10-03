@@ -54,7 +54,7 @@ export default function Home() {
           <div className="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {services?.map((service) => (
               <div
-                key={service.title}
+                key={service.id}
                 className="flex flex-col gap-4 rounded-2xl bg-white shadow-lg overflow-hidden p-6"
               >
                 <img
