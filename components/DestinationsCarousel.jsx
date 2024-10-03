@@ -19,7 +19,7 @@ const DestinationsCarousel = () => {
       <div className="carousel h-[50vh]">
         {destinations.map((destination, index) => (
           <div
-            key={destination.Name}
+            key={destination.id}
             id={`slide${index}`}
             className="carousel-item relative w-full"
           >

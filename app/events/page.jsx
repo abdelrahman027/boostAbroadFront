@@ -8,7 +8,7 @@ export default function Events() {
 
   useEffect(() => {
     axios
-      .get("http://abdelrahman0027.pythonanywhere.com/api/events/")
+      .get("https://abdelrahman0027.pythonanywhere.com/api/events/")
       .then((res) => {
         setEvents(res.data.events);
       });
@@ -32,7 +32,7 @@ export default function Events() {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
               {events.map((oneEvent) => (
                 <EventCard
-                  key={oneEvent.name}
+                  key={oneEvent.id}
                   title={oneEvent.name}
                   image={oneEvent.event_image}
                   time={oneEvent.event_time}

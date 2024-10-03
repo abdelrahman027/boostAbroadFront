@@ -169,7 +169,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
               {locations.map((location) => (
                 <div
-                  key={location.district}
+                  key={location.id}
                   className="flex flex-col gap-2 rounded-2xl overflow-hidden bg-white p-5 lg:p-3"
                 >
                   <img
