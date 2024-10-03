@@ -8,7 +8,7 @@ export default function Programs({params}) {
 
     useEffect(() => {
         axios
-            .get("http://abdelrahman0027.pythonanywhere.com/api/programs/")
+            .get("https://abdelrahman0027.pythonanywhere.com/api/programs/")
             .then((res) => {
                 setPrograms(res.data.programs);
             });
