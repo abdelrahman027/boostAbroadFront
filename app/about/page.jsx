@@ -41,7 +41,8 @@ export default function AboutPage() {
               </h2>
               <div className="flex flex-col lg:flex-row items-center gap-10">
                 <img
-                  className="h-full lg:h-[15vw] aspect-[9/5] object-cover rounded-lg"
+                  className="w-full lg:h-[20vw]  rounded-lg"
+                  
                   src="/services.jfif"
                   alt="Expert Guidance"
                 />
