@@ -9,7 +9,7 @@ export default function Programs({ params }) {
 
     useEffect(() => {
         axios
-            .get("http://localhost:8000/api/programs/")
+            .get("http://abdelrahman0027.pythonanywhere.com/api/programs/")
             .then((res) => {
                 setPrograms(res.data.programs.filter(program => program.university.name.toLowerCase().startsWith(params.slug.split("_").join(' ').toLowerCase())))
             })
