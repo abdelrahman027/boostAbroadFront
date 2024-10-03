@@ -20,7 +20,7 @@ export default function Events() {
       <main>
         <section className="bg-[linear-gradient(45deg,#14141499,#2a2a2ac4),url(/hero.png)] bg-no-repeat bg-cover flex flex-col gap-4 justify-center items-center h-screen">
           <h1 className="text-4xl md:text-6xl lg:text-9xl text-white font-bold text-center">
-            Embark on Extraordinary
+            Embark On Extraordinary
             <br />
             Journeys
           </h1>
