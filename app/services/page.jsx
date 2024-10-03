@@ -97,7 +97,7 @@ export default function Services() {
             <img
               className="w-full lg:h-[20vw] rounded-lg"
               src="/services.jfif"
-              alt=""
+              alt="Chill"
             />
           </div>
         </section>

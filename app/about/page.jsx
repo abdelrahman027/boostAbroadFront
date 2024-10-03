@@ -76,7 +76,7 @@ export default function AboutPage() {
                   </p>
                 </div>
                 <img
-                  className="h-full lg:h-[15vw] aspect-[9/5] object-cover rounded-lg order-0 lg:order-1"
+                  className="w-full lg:h-[20vw] rounded-lg order-0 lg:order-1"
                   src="/services.jfif"
                   alt="Personalized Itineraries"
                 />
@@ -84,7 +84,7 @@ export default function AboutPage() {
 
               <div className="flex flex-col lg:flex-row items-center gap-10">
                 <img
-                  className="h-full lg:h-[15vw] aspect-[9/5] object-cover rounded-lg"
+                  className="w-full lg:h-[20vw] rounded-lg"
                   src="/services.jfif"
                   alt="Personalized Itineraries"
                 />
@@ -118,7 +118,7 @@ export default function AboutPage() {
                   </p>
                 </div>
                 <img
-                  className="h-full lg:h-[15vw] aspect-[9/5] object-cover rounded-lg order-0 lg:order-1"
+                  className="w-full lg:h-[20vw] rounded-lg order-0 lg:order-1"
                   src="/services.jfif"
                   alt="Exclusive Experiences"
                 />
