@@ -187,7 +187,7 @@ const Header = () => {
             { title: "Blog", path: "/blog" },
             { title: "Events", path: "/events" },
           ].map((item) => (
-            <Link key={item.path} href={item.path} className="text-3xl text-black font-bold">
+            <Link key={item.path} href={item.path} onClick={() => setIsOpened(false)} className="text-3xl text-black font-bold">
               {item.title}
             </Link>
           ))}
