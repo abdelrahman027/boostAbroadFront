@@ -8,7 +8,7 @@ export default function AboutPage() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/locations/")
+      .get("https://abdelrahman0027.pythonanywhere.com/api/locations/")
       .then((res) => {
         setLocations(res.data.locations);
       });

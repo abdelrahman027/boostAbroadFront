@@ -9,7 +9,7 @@ const DestinationsCarousel = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/destinations/")
+      .get("https://abdelrahman0027.pythonanywhere.com/api/destinations/")
       .then((res) => {
         setDestinations(res.data.destinations);
       });

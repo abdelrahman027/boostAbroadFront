@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="space-y-4">
             <p className="text-[#9B93A6] text-base">
               Get on app to connect with fans, share your sounds, and grow your
-              audience. What are you waiting for?
+              audience. What are you waiting for ?
             </p>
             <button className="rounded px-6 py-2 border-2 border-black inline-block" onClick={showModal}>
               Get free Consultation

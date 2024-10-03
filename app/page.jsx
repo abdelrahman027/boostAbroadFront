@@ -12,19 +12,19 @@ export default function Home() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/universities/")
+      .get("https://abdelrahman0027.pythonanywhere.com/api/universities/")
       .then((res) => {
         setUnivseities(res.data.universities);
       });
 
     axios
-      .get("http://localhost:8000/api/services/")
+      .get("https://abdelrahman0027.pythonanywhere.com/api/services/")
       .then((res) => {
         setServices(res.data.services);
       });
 
     axios
-      .get("http://localhost:8000/api/destinations/")
+      .get("https://abdelrahman0027.pythonanywhere.com/api/destinations/")
       .then((res) => {
         setDestinations(res.data.destinations);
       });

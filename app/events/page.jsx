@@ -8,7 +8,7 @@ export default function Events() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/events/")
+      .get("http://abdelrahman0027.pythonanywhere.com/api/events/")
       .then((res) => {
         setEvents(res.data.events);
       });

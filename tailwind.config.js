@@ -8,10 +8,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#772EDF",
+        dark: "#363636",
+        secondary: "#261F30",
+        third: "#f1f1f1",
+      },
+      container: {
+        center: true,
+        padding: {
+          md: "3rem",
+          sm: "2rem",
+          DEFAULT: "2rem",
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };

@@ -8,7 +8,7 @@ export default function Blog() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8000/api/knowledges/")
+      .get("https://abdelrahman0027.pythonanywhere.com/api/knowledges/")
       .then((res) => {
         setKnowledges(res.data.knowledges);
       });
