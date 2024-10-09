@@ -55,17 +55,17 @@ export default function Home() {
             {services?.map((service) => (
               <div
                 key={service.id}
-                className="flex flex-col gap-4 rounded-2xl bg-white shadow-lg overflow-hidden p-6"
+                className="flex flex-col gap-4 h-[600px] rounded-2xl bg-white shadow-lg overflow-hidden p-6"
               >
                 <img
-                  className="rounded-xl"
+                  className="rounded-xl w-96 h-96 object-cover mx-auto"
                   src={service.image}
                   alt={service.title}
                 />
                 <h4 className="text-xl font-medium text-black">
                   {service.title}
                 </h4>
-                <p className="text-base text-[#9B93A6]">
+                <p className="text-base line-clamp-4 text-[#9B93A6]">
                   {service.description}
                 </p>
 
