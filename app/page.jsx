@@ -71,7 +71,7 @@ export default function Home() {
 
                 <Link
                   className="text-secondary font-black text-lg"
-                  href="/services"
+                  href="/service-accomdation"
                 >
                   Learn more
                 </Link>

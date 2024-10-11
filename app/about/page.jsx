@@ -43,20 +43,25 @@ export default function AboutPage() {
                 <img
                   className="w-full lg:h-[20vw]  rounded-lg"
                   
-                  src="/services.jfif"
+                  src="/boost-abroad-logo.png"
                   alt="Expert Guidance"
                 />
                 <div className="space-y-2">
-                  <h3 className="font-bold text-xl">Expert Guidance</h3>
+                  <h3 className="font-bold text-xl">Our First Launch Was in March 2020,</h3>
                   <p className="text-base text-black text-light">
-                    Our team of travel experts brings years of experience and
-                    firsthand knowledge to help you plan the perfect trip. From
-                    selecting destinations to creating detailed itineraries, we
-                    guide you every step of the way. Our team of travel experts
-                    brings years of experience and firsthand knowledge to help
-                    you plan the perfect trip. From selecting destinations to
-                    creating detailed itineraries, we guide you every step of
-                    the way.
+                  however, we postponed our official launch due to COVID and 
+official preparations procedures. Today, we are excited to 
+announce the rebranding of our company in collaboration with 
+BOOST, a leading consulting and training company 
+established in 2001 and based in Abu Dhabi, UAE 
+with 2 more offices in KSA and Egypt.
+BOOST managed to deliver more than 5000 training courses
+since then and worked with many organizations and 
+governmental institutions, While OASIS with a team of 
+experienced education counselors of more than 5 years in the 
+market managed in less than a month to seal partnership deals 
+with the most prestigious educational service providers to 
+ensure a variety of options for the students
                   </p>
                 </div>
               </div>
@@ -64,21 +69,26 @@ export default function AboutPage() {
               <div className="flex flex-col lg:flex-row items-center gap-10">
                 <div className="space-y-2 order-1 lg:order-0">
                   <h3 className="font-bold text-xl">
-                    Personalized Itineraries
+                  STUDENTS OFTEN ASPIRE
+                  TO STUDY ABROAD
                   </h3>
                   <p className="text-base text-black text-light">
-                    We believe no two travelers are alike. That’s why we tailor
-                    each itinerary to your specific interests, preferences, and
-                    budget, ensuring a unique and unforgettable experience every
-                    time. We believe no two travelers are alike. That’s why we
-                    tailor each itinerary to your specific interests,
-                    preferences, and budget, ensuring a unique and unforgettable
-                    experience every time.
+                  The opportunity to immerse themselves in a different culture 
+and educational system is a powerful motivator. This 
+experience fosters personal growth, independence, and a 
+deeper understanding of the world, cultivating cultural 
+sensitivity and adaptability,Moreover, studying abroad offers access to diverse 
+academic programs and courses not available in their home 
+countries, enabling students to explore specialized fields and 
+gain a competitive edge in the job market. The experience also 
+enhances language skills and provides a global network, 
+critical for an increasingly interconnected world.
+
                   </p>
                 </div>
                 <img
                   className="w-full lg:h-[20vw] rounded-lg order-0 lg:order-1"
-                  src="/services.jfif"
+                  src="/Learn.jpg"
                   alt="Personalized Itineraries"
                 />
               </div>
@@ -90,17 +100,18 @@ export default function AboutPage() {
                   alt="Personalized Itineraries"
                 />
                 <div className="space-y-2">
-                  <h3 className="font-bold text-xl">Comprehensive Support</h3>
+                  <h3 className="font-bold text-xl">Personal and Professional 
+                  Development. </h3>
                   <p className="text-base text-black text-light">
-                    From the moment you start planning until you return home, we
-                    provide continuous support. Whether it&apos;s assistance with
-                    visas, travel insurance, or local tips, we&apos;re here to make
-                    your journey smooth and stress-free. From the moment you
-                    start planning until you return home, we provide continuous
-                    support. Whether it&apos;s assistance with visas, travel
-                    insurance, or local tips, we&apos;re here to make your journey
-                    smooth and stress-free.
+                  Ultimately, studying abroad becomes a transformative 
+journey that empowers students with a broader 
+perspective, increased self-confidence, and a wealth 
+of unforgettable memories and friendships
                   </p>
+                  <h2>
+                  All of which contribute to their personal 
+                  and professional development.
+                  </h2>
                 </div>
               </div>
 
@@ -120,7 +131,7 @@ export default function AboutPage() {
                 </div>
                 <img
                   className="w-full lg:h-[20vw] rounded-lg order-0 lg:order-1"
-                  src="/services.jfif"
+                  src="/university.jpg"
                   alt="Exclusive Experiences"
                 />
               </div>
