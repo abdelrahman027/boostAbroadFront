@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 const roboto = Roboto_Flex({
   subsets: ["latin"],
   display: "swap",
+  adjustFontFallback:false
 })
 
 export const metadata = {

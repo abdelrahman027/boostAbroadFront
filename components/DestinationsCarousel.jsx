@@ -36,7 +36,7 @@ const DestinationsCarousel = () => {
   
       {destinations.map(dest=>(
 
-
+        <div key={dest.id}>
       <SwiperSlide className='relative z-20'>
         <div >
         <div className="absolute top-0 left-0 bg-blend-darken z-10 w-full h-full bg-[#0a0a0a47]"></div>
@@ -52,8 +52,10 @@ const DestinationsCarousel = () => {
         </div>
             
       </SwiperSlide>
+      </div>
       ))}
     </Swiper>
+    
   );
 };
 
