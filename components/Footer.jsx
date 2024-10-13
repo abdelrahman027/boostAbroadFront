@@ -21,7 +21,7 @@ const Footer = () => {
     <footer className="bg-[#EBE2F8] pt-12 text-dark">
       <div className="container grid lg:grid-cols-3 gap-12 lg:gap-20 pb-12">
         <div className="flex gap-4">
-          <img src="./logo.png" className="h-14" />
+          <img src="/logo.png" className="h-14" />
           <div className="space-y-4">
             <p className="text-[#9B93A6] text-base">
               Get on app to connect with fans, share your sounds, and grow your

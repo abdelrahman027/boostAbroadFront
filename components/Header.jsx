@@ -55,7 +55,7 @@ const Header = () => {
         <div className="container block lg:flex justify-between items-center gap-24">
           <div className="flex gap-10 justify-between items-center">
             <Link href="/">
-              <img className="h-12" src="./logo.png" alt="Logo Image" />
+              <img className="h-12" src="/logo.png" alt="Logo Image" />
             </Link>
             <button
               className="block lg:hidden"
